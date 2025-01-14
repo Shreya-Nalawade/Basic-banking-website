@@ -1,0 +1,96 @@
+body {
+    /* background-color:#153969;  */
+    background-image: url(bg4.png);
+    background-size: cover;
+    font-family: cursive; 
+    margin: 0; 
+    padding: 20px; 
+}
+
+.deposit-container {
+    max-width: 400px;
+    width: 100%;
+    padding: 40px;
+    background-color:#1539692f;
+    border-radius: 12px;
+    box-shadow: 0 8px 16px rgba(108, 184, 178, 0.2);
+    text-align: center;
+    margin: 20px auto; /* Center the container */
+}
+
+.deposit-container h1 {
+    font-size: 28px;
+    color: #ffffff;
+    margin-bottom: 10px;
+}
+
+.deposit-container label {
+    display: block;
+    font-size: 14px;
+    color: #d6cfcf;
+    margin: 20px 0 8px;
+    text-align: left;
+}
+
+.deposit-container input {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 10px;
+    border: 1px solid #dddddda8;
+    border-radius: 6px;
+    font-size: 16px;
+    color: #5b5a5a;
+    transition: border 0.3s;
+    font-family: cursive;
+}
+
+.deposit-container input:focus {
+    border-color: #4478bb;
+    outline: none;
+}
+
+.btn-primary {
+    width: 100%;
+    font-family: cursive;
+    padding: 12px;
+    background-color: #4478bb;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btn-primary:hover {
+    background-color: #4574a0;
+}
+
+.bank-footer {
+
+    color: #ffffff;
+    padding: 150px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+.bank-footer p {
+    margin: 8px 0;
+    font-size: 14px;
+}
+
+.footer-link {
+    color: #ffffff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.footer-link:hover {
+    text-decoration: underline;
+}
+
+.social-links a {
+    margin: 0 8px;
+}
+
